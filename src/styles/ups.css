@@ -1,0 +1,24 @@
+.App-ups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  color: #e9c46a;
+}
+
+.App-ups h1 {
+  font-size: 3rem;
+}
+
+.ups-icon-wrapper {
+  position: relative;
+}
+
+.bot-icon-404 {
+  margin-bottom: 1rem;
+  height: 5rem;
+  color: #e9c46a;
+  cursor: pointer;
+}

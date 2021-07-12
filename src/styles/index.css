@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: #232b32;
+}
+
+h1,
+h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 0.8rem;
+}
+
+input:hover {
+  transform: scale(0.97);
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem 0.8rem;
+  font-weight: 600;
+  color: #f1faee;
+}
+
+button:hover {
+  transform: scale(0.97);
+}

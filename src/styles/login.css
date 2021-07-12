@@ -1,0 +1,83 @@
+.chat-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: #232b32;
+}
+
+.welcome-wrapper {
+  display: flex;
+  min-width: 500px;
+}
+
+.bot-hi {
+  margin: 1rem;
+  height: 7rem;
+}
+
+.login-welcome {
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 30px;
+  background-color: #e9c46a;
+  box-shadow: 3px 3px 5px hsla(43, 74%, 66%, 0.4);
+  text-align: center;
+  cursor: default;
+}
+
+.login-welcome h1 {
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
+}
+
+.login-welcome p {
+  font-size: 0.9rem;
+}
+
+.login-form {
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 30px;
+  background-color: #f9fbffe0;
+  box-shadow: 2px 4px 5px rgba(255, 255, 255, 0.4);
+}
+
+.login-form h1 {
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.login-input {
+  min-width: 200px;
+  margin-bottom: 0.8rem;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input-firstName,
+.input-lastName {
+  color: #232b3298;
+}
+
+.checkbox-input {
+  min-width: fit-content;
+  margin: 0.8rem 0;
+}
+
+.login-form p:last-of-type {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.login-btn {
+  background-color: #f3705a;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-p-required {
+  padding-top: 0.4rem;
+  font-size: 0.8rem;
+  color: #232b32;
+}

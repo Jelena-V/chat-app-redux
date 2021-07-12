@@ -1,0 +1,116 @@
+.App-about {
+  color: #f1faee;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.about-heading {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-heading p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.about-heading h1 {
+  font-size: 3rem;
+}
+
+.about-me {
+  margin-top: 8rem;
+}
+
+.about-me p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.about-me h1 {
+  font-size: 2rem;
+}
+
+.bot-animation-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.bot-animation {
+  position: absolute;
+  opacity: 0;
+  animation: botIn 4s linear forwards;
+}
+.bot-animation:nth-child(2) {
+  animation-delay: 3s;
+}
+.bot-animation:nth-child(3) {
+  animation-delay: 6s;
+}
+.bot-animation:nth-child(4) {
+  animation-delay: 9s;
+}
+.bot-animation:last-child {
+  animation: fadeOut 7s linear 13s forwards;
+  bottom: 2rem;
+}
+
+.about-heading p,
+.about-heading h1 {
+  animation: bot-appear 13s linear forwards;
+}
+
+.bot-final {
+  margin-top: 1rem;
+  height: 6rem;
+}
+
+.bot-bye {
+  height: 12rem;
+}
+
+@keyframes bot-appear {
+  0% {
+    opacity: 0.2;
+    filter: blur(10px);
+  }
+  10%,
+  90% {
+    opacity: 0.8;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+}
+
+@keyframes botIn {
+  0% {
+    opacity: 0.2;
+    filter: blur(10px);
+  }
+  50%,
+  85% {
+    opacity: 0.8;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  0% {
+    opacity: 0;
+  }
+}
